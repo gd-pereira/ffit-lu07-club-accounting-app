@@ -12,10 +12,3 @@ spring:
 
 jwt:
   secret: ${jwt.secret:ThisIsAVerySecretKeyForJwtSigning123!}
-
-logging:
-  level:
-    root: INFO
-    ch.bzz: DEBUG
-  file:
-    name: app.log
